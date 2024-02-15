@@ -6,6 +6,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+    
 }
 
 header img {
@@ -15,12 +17,14 @@ header img {
 ul {
     list-style: none;
     display: flex;
+    
 }
 
 ul li a {
     padding: 10px 20px;
     text-decoration: none;
     font-size: 15px;
+    
 }
 
 
@@ -42,6 +46,7 @@ ul li a {
     font-family: "Indie Flower",
     cursive;
     color: palevioletred;
+  
 }
 
 .title span::after  {
@@ -59,7 +64,7 @@ ul li a {
 }
 
 .text1 span::before  {
-    content: "成長";
+    content: "æˆé•·";
     color: lightskyblue;
 }
 .text2 {
@@ -83,6 +88,8 @@ hr {
 dl {
     width: 600px;
     margin: 0 auto;
+    
+    
 }
 
 
@@ -98,6 +105,7 @@ dt {
     float: left;
     border-bottom: -1px solid;
     padding: 10px 5px;
+    
 }
 
 .news_container a {
@@ -112,12 +120,13 @@ dt {
 
 .news_container {
     text-align: center;
-    position: relative;
+    position: relative;   
 }
 .news_ttl {
     display: block;
     text-align: center;
     width: 800px;
+    
 }
 
 .news_ttl::before {
@@ -150,9 +159,10 @@ dt {
     width: 100px;
     height: 100px;
     right: 620px;
+
+
+
 }
-
-
 .about {
     background-color: #ccc;
     margin: 0;
@@ -162,8 +172,10 @@ dt {
 
 .about_text {
     display: flex
-}
 
+
+
+}
 
 .about_text p {
     text-align: center;
@@ -179,6 +191,7 @@ dt {
     width: 30%;
     vertical-align: top;
     margin: 0 50px 50px 50px;
+    
 }
 
 
@@ -186,16 +199,7 @@ dt {
 
 .service {
     margin: 50px 100px;
-    
 }
-
-
-.service__content-ttl {
-    position: relative;
-    padding: 20px;
-    
-}
-
 
 .service::before {
     content: "Service";
@@ -204,10 +208,12 @@ dt {
     color: palevioletred;
     font-family: "Indie Flower",
         cursive;
+    bottom: -950px;
+   
+
+
 
 }
-
-
 .service__content {
     display: grid;
     grid-template-rows: 250px 250px;
@@ -228,7 +234,7 @@ dt {
     background: #940358;
     text-align: center;
     padding: 50px;
-    font-size: 20px;
+    font-size: 20px;   
 }
 
 
@@ -236,17 +242,15 @@ dt {
     grid-row: 1/2;
     grid-column: 2/4;
     background: #f3239d;
-    display: flex;
+    display: flex;  
+    
 }
-
 .box3 {
     grid-row: 2/3;
     grid-column: 2/4;
     background: #f35ef3;
     display: flex;
 }
-
-
 .sumple-text2,
 .sumple-text3 {
     margin: 40px;
@@ -265,12 +269,9 @@ dt {
 
 
 .blog {
-    margin-left: 100px;
-    margin-top: 100px;
-    padding-top: 100px;
+    margin: 0px;
     background-color: #ccc;
-    position: relative;
-
+    padding: 50px 100px 0px 100px;
 }
 
 
@@ -281,32 +282,29 @@ dt {
     color: palevioletred;
     font-family: "Indie Flower",
         cursive;
-    display: block;
-    bottom: 30px;
+    bottom: -1600px;
 }
 
 .flex__item {
     display: flex;
     justify-content: space-between;
+    /* padding: 100px 0px 100px 0px; */
     position: relative;
-    margin: 100px;
-    
 }
 
 .practice__card {
-    width: 30%;
     font-size: 20px;
     border-radius: 30px;
     background-color: #ccc;
-    margin-top: 0;
-
-
-
 }
 
-.card__img {
-    position: relative;
+.practice__card {
 }
+
+patting {
+}
+
+padding {}
 
 
 .card__img img {
@@ -316,16 +314,14 @@ dt {
 }
 
 .card__content {
-    padding: 50px;
-    background-color: #fff;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    margin-top: -10px;
+    padding: 15px 25px;
 }
 
 .card__ttl {
     font-size: 18px;
     margin-bottom: 30px;
+
+
 }
 
 .card__cat {
@@ -334,44 +330,45 @@ dt {
     margin-bottom: 15px;
     display: inline-block;
     color: #fff;
+    /* font-size: 14px; */
     position: absolute;
     top: 0;
     left: 0;
     border-top-left-radius: 30px;
     width: 50px;
     text-align: center;
+    /* left: 100px; */
 }
 
 .tag {
     font-size: 14px;
-    justify-content: space-between;
-
+    text-align: right;
 }
 
 .card__tag {
     display: inline-block;
     color: #008888;
+    
 }
 
 .card__date {
     display: inline-block;
     margin-left: 20px;
     color: #888888;
-    text-align: left;
 }
 
 
 .list_btn {
-    background-color: #fff;
-    border-radius: 30px;
-    display: block;
-    color: palevioletred;
-    text-decoration: none;
-    border: 1px solid palevioletred;
-    font-size: 15px;
-    text-align: center;
-    padding: 10px;
-    width: 120px;
+   background-color: #fff;
+   border-radius: 30px;
+   display: block;
+   color: palevioletred;
+   text-decoration: none;
+   border: 1px solid palevioletred;
+   font-size: 15px;
+   text-align: center;
+   padding: 10px;
+   width: 120px;
     margin: 0 auto;
 }
 
@@ -379,6 +376,9 @@ dt {
     margin: 0;
     padding: 30px;
     display: block;
+    
+    
+    
 }
 
 
@@ -394,13 +394,16 @@ dt {
     color: palevioletred;
     font-family: "Indie Flower",
         cursive;
-    display: block;
-    top: -30px;
+    bottom: 450px;
+    
+
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
+    
+
 }
 
 
@@ -419,6 +422,7 @@ table th {
     display: flex;
     margin-bottom: 10px;
     position: relative;
+    
 }
 
 .bg1,
@@ -439,6 +443,7 @@ table th {
 .bg2 {
     top: 50%;
     left: 70%;
+    
 }
 
 
