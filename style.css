@@ -118,6 +118,7 @@ dt {
     display: block;
     text-align: center;
     width: 800px;
+
 }
 
 .news_ttl::before {
@@ -147,9 +148,10 @@ dt {
     font-family: "Indie Flower",
         cursive;
     bottom: 10px;
-    width: 100px;
-    height: 100px;
-    right: 620px;
+    right: 710px;
+    transform: translate(-50%, -50%);
+
+
 }
 
 
@@ -186,25 +188,24 @@ dt {
 
 .service {
     margin: 50px 100px;
-    
+    white-space: nowrap;
+    width: 100%;
+
 }
 
 
 .service__content-ttl {
     position: relative;
-    padding: 20px;
-    
 }
 
 
-.service::before {
+.service_content-ttl::before {
     content: "Service";
     position: absolute;
     font-size: 20px;
     color: palevioletred;
     font-family: "Indie Flower",
         cursive;
-
 }
 
 
@@ -214,6 +215,7 @@ dt {
     grid-template-columns: 2fr 1fr 1fr;
     color: #fff;
     margin: 0;
+
 }
 
 .flex__item h2 {
@@ -261,7 +263,20 @@ dt {
 
 .flex_blog {
     background-color: #ccc;
+
 }
+
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+
+    .service__content-ttl,
+    .sumple-text1,
+    .sumple-text2,
+    .sumple-text3 {
+        white-space: nowrap;
+    }
+}
+
 
 
 .blog {
@@ -290,7 +305,8 @@ dt {
     justify-content: space-between;
     position: relative;
     margin: 100px;
-    
+
+
 }
 
 .practice__card {
@@ -299,6 +315,8 @@ dt {
     border-radius: 30px;
     background-color: #ccc;
     margin-top: 0;
+
+
 
 
 
@@ -381,6 +399,13 @@ dt {
     display: block;
 }
 
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+
+    .card__ttl {
+        white-space: nowrap;
+    }
+}
 
 .information {
     margin: 150px 150px 100px 150px;
