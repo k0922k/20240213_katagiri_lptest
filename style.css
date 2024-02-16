@@ -100,6 +100,10 @@ dt {
     padding: 10px 5px;
 }
 
+.news_container {
+    position: relative;
+}
+
 .news_container a {
     background-color: palevioletred;
     border-radius: 15px;
@@ -110,14 +114,11 @@ dt {
     margin-right: 20px;
 }
 
-.news_container {
-    text-align: center;
-    position: relative;
-}
+
 .news_ttl {
-    display: block;
-    text-align: center;
-    width: 800px;
+    width: 100%;
+    position: relative;
+    left: 30%;
 
 }
 
@@ -128,7 +129,9 @@ dt {
     color: palevioletred;
     font-family: "Indie Flower",
     cursive;
-    bottom: 320px;
+    top: -20px;
+    left: 0;
+
 
 }
 
@@ -140,30 +143,34 @@ dt {
 }
 
 
-.Technology::before {
-    content: "About";
-    position: absolute;
-    font-size: 20px;
-    color: palevioletred;
-    font-family: "Indie Flower",
-        cursive;
-    bottom: 10px;
-    right: 710px;
-    transform: translate(-50%, -50%);
-
-
-}
 
 
 .about {
-    background-color: #ccc;
     margin: 0;
+    background-color: #ccc;
+}
 
+.Technology::before {
+    content: "About";
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;  
+    margin-bottom: 20px;
+    position: absolute;
+    color: palevioletred;
+    font-family: "Indie Flower",
+            cursive;
+    text-align: center;
+    left: 48%;
+    top: 20px;
 
 }
 
+
 .about_text {
     display: flex
+    
 }
 
 
@@ -188,8 +195,7 @@ dt {
 
 .service {
     margin: 50px 100px;
-    white-space: nowrap;
-    width: 100%;
+    width: auto;
 
 }
 
@@ -199,14 +205,16 @@ dt {
 }
 
 
-.service_content-ttl::before {
+.service__content-ttl::before {
     content: "Service";
     position: absolute;
     font-size: 20px;
     color: palevioletred;
     font-family: "Indie Flower",
         cursive;
+        top: -20px;
 }
+
 
 
 .service__content {
@@ -214,7 +222,7 @@ dt {
     grid-template-rows: 250px 250px;
     grid-template-columns: 2fr 1fr 1fr;
     color: #fff;
-    margin: 0;
+
 
 }
 
@@ -264,17 +272,6 @@ dt {
 .flex_blog {
     background-color: #ccc;
 
-}
-
-
-@media screen and (min-width: 1000px) and (max-width: 1500px) {
-
-    .service__content-ttl,
-    .sumple-text1,
-    .sumple-text2,
-    .sumple-text3 {
-        white-space: nowrap;
-    }
 }
 
 
@@ -399,13 +396,6 @@ dt {
     display: block;
 }
 
-
-@media screen and (min-width: 1000px) and (max-width: 1500px) {
-
-    .card__ttl {
-        white-space: nowrap;
-    }
-}
 
 .information {
     margin: 150px 150px 100px 150px;

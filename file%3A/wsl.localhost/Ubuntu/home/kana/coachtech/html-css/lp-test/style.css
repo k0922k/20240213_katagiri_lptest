@@ -111,15 +111,12 @@ dt {
 }
 
 .news_container {
-    text-align: center;
-    position: relative;
+    /* text-align: center; */
+    /* position: relative; */
 }
-.news_ttl {
-    display: block;
-    text-align: center;
-    width: 800px;
+.news_ttl {width: 100%;position: relative;}
 
-}
+h2.news_ttl {}
 
 .news_ttl::before {
     content: "News";
@@ -128,8 +125,8 @@ dt {
     color: palevioletred;
     font-family: "Indie Flower",
     cursive;
-    bottom: 320px;
-
+    top: -20px;
+    left: 0;
 }
 
 .Technology {
@@ -147,9 +144,9 @@ dt {
     color: palevioletred;
     font-family: "Indie Flower",
         cursive;
-    bottom: 10px;
-    right: 710px;
-    /* transform: translate(-50%, -50%); */
+    bottom: 80px;
+    text-align: center;
+    left: 48%;
 }
 
 
@@ -293,10 +290,11 @@ dt {
     justify-content: space-between;
     position: relative;
     margin: 100px;
-    width: 100%;
+    /* width: 100%; */
     height: auto;
-    
 }
+
+.fiex.item {font-size: 14;}
 
 .practice__card {
     width: 30%;
