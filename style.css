@@ -29,9 +29,9 @@ ul li a {
 }
 
 .first__img {
-        margin: 0 0 0 auto;
-        display: block;
-        width: 60%;
+    margin: 0 0 0 auto;
+    display: block;
+    width: 60%;
 }
 
 .title  {
@@ -116,9 +116,9 @@ dt {
 
 
 .news_ttl {
-    width: 100%;
     position: relative;
-    left: 30%;
+    margin-left: 30%;
+    margin-right: 0;
 
 }
 
@@ -148,6 +148,8 @@ dt {
 .about {
     margin: 0;
     background-color: #ccc;
+    width: 100%;
+    height: 500px;
 }
 
 .Technology::before {
@@ -165,29 +167,30 @@ dt {
     left: 48%;
     top: 20px;
 
+
 }
 
 
 .about_text {
-    display: flex
-    
+    display: flex;
+
+
 }
 
 
 .about_text p {
-    text-align: center;
     padding-left: 150px;
-    padding-right: 100px;
+    padding-right: 150px;
+    font-size: 16px;
+    height: 300px;
     margin: 0;
-    font-size: 20px;
     width: 30%;
 
 }
 .about img {
     display: inline-block;
     width: 30%;
-    vertical-align: top;
-    margin: 0 50px 50px 50px;
+    margin-bottom: 20px;
 }
 
 
@@ -195,7 +198,7 @@ dt {
 
 .service {
     margin: 50px 100px;
-    
+
 
 }
 
@@ -219,28 +222,41 @@ dt {
 
 .service__content {
     display: grid;
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 230px 230px;
     grid-template-columns: 2fr 1fr 1fr;
     color: #fff;
     margin: 0 auto;
 
+
 }
+
 
 .box1 {
     grid-row: 1/3;
     grid-column: 1/2;
     background: #940358;
-    text-align: center;
-    padding: 50px;
     font-size: 20px;
+    padding:  30px;
+    
 }
 
+.box1 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 h2 {
+    text-align: center;
+}
 
 .box2 {
     grid-row: 1/2;
     grid-column: 2/4;
     background: #f3239d;
     display: flex;
+    padding-top: 30px;
+
 }
 
 .box3 {
@@ -248,23 +264,32 @@ dt {
     grid-column: 2/4;
     background: #f35ef3;
     display: flex;
+    padding-top: 30px;
 }
+
+
 
 
 .sumple-text2,
 .sumple-text3 {
-    margin: 40px;
+    white-space: nowrap;
 
 }
 
+.box1 img {
+    margin: 0 auto;
+}
+
+
 .box2 img,
 .box3 img {
-    margin-left: 30px;
+    margin-left: 20px;
     margin-right: 10px;
 }
 
 .flex_blog {
     background-color: #ccc;
+    margin: 0 auto;
 
 }
 
@@ -272,10 +297,11 @@ dt {
 
 .blog {
     margin-left: 100px;
-    margin-top: 100px;
+    margin-right: 0;
     padding-top: 100px;
     background-color: #ccc;
     position: relative;
+
 
 }
 
@@ -295,22 +321,16 @@ dt {
     display: flex;
     justify-content: space-between;
     position: relative;
-    margin: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 
 
 }
 
 .practice__card {
     width: 30%;
-    font-size: 20px;
     border-radius: 30px;
     background-color: #ccc;
-    margin-top: 0;
-
-
-
-
-
 }
 
 .card__img {
@@ -325,16 +345,17 @@ dt {
 }
 
 .card__content {
-    padding: 50px;
+    padding: 50px 30px 0 ;
     background-color: #fff;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    margin-top: -10px;
+    margin-top: -30px;
 }
 
 .card__ttl {
-    font-size: 18px;
-    margin-bottom: 30px;
+    font-size: 12px;
+    margin-bottom: 10px;
+
 }
 
 .card__cat {
@@ -352,7 +373,9 @@ dt {
 }
 
 .tag {
-    font-size: 14px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 
 }
@@ -364,9 +387,8 @@ dt {
 
 .card__date {
     display: inline-block;
-    margin-left: 20px;
     color: #888888;
-    text-align: left;
+
 }
 
 
