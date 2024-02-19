@@ -455,6 +455,7 @@ table th {
 
 .container {
     position: relative;
+    width: 50%;
 }
 
 .bg1,
